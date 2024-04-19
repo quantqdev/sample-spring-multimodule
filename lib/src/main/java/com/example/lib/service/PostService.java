@@ -20,7 +20,7 @@ public class PostService {
                 Post.builder().title(title).body(body).build());
     }
 
-    public List<Post> findPosts(@NonNull final String title) {
-        return postRepository.findByTitleContainingIgnoreCase(title);
+    public List<Post> findPosts(final String title) {
+        return postRepository.findByTitleContainingIgnoreCase(title == null ? "" : title);
     }
 }
