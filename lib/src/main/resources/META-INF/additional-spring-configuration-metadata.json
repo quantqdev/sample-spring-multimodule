@@ -1,0 +1,9 @@
+{
+    "properties": [
+        {
+            "name": "my-config.greeting-message",
+            "type": "java.lang.String",
+            "description": "A greeting message"
+        }
+    ]
+}
