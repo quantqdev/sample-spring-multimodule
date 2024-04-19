@@ -19,6 +19,16 @@
             "projectName": "add-user-script",
             "args": "",
             "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-ShellApplication<shell>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.example.shell.ShellApplication",
+            "projectName": "shell",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
         }
     ]
 }

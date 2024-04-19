@@ -31,3 +31,4 @@ build/
 
 # Application Generated Files
 app-h2.*.db
+shell.log
