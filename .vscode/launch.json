@@ -9,6 +9,16 @@
             "projectName": "web",
             "args": "",
             "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-AddUserScriptApplication<add-user-script>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.example.adduserscript.AddUserScriptApplication",
+            "projectName": "add-user-script",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
         }
     ]
 }
