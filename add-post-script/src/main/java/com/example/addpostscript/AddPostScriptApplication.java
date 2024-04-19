@@ -1,4 +1,4 @@
-package com.example.adduserscript;
+package com.example.addpostscript;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -12,10 +12,10 @@ import com.example.lib.configuration.MyConfig;
 @EntityScan(basePackages = "com.example")
 @EnableJdbcRepositories(basePackages = "com.example")
 @EnableConfigurationProperties(MyConfig.class)
-public class AddUserScriptApplication {
+public class AddPostScriptApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(AddUserScriptApplication.class, args);
+		SpringApplication.run(AddPostScriptApplication.class, args);
 	}
 
 }

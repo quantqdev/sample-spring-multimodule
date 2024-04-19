@@ -1,10 +1,10 @@
-package com.example.adduserscript;
+package com.example.addpostscript;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class AddUserScriptApplicationTests {
+class AddPostScriptApplicationTests {
 
 	@Test
 	void contextLoads() {

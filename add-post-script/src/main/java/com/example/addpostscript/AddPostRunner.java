@@ -1,4 +1,4 @@
-package com.example.adduserscript;
+package com.example.addpostscript;
 
 import org.springframework.boot.ApplicationArguments;
 import org.springframework.boot.ApplicationRunner;
@@ -12,7 +12,7 @@ import lombok.RequiredArgsConstructor;
 
 @Component
 @RequiredArgsConstructor
-public class AddUserRunner implements ApplicationRunner {
+public class AddPostRunner implements ApplicationRunner {
 
     private final PostService postService;
     private final MyConfig myConfig;
@@ -21,7 +21,7 @@ public class AddUserRunner implements ApplicationRunner {
     public void run(@NonNull final ApplicationArguments args) throws Exception {
         System.out.println("Greeting message: " + myConfig.greetingMessage());
 
-        final var savedPost = postService.createPost("post aus", "post created by add-user-runner");
+        final var savedPost = postService.createPost("post aus", "post created by add-post-runner");
         System.out.println(savedPost);
     }
 

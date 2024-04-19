@@ -13,7 +13,7 @@
     <modules>
         <module>lib</module>
         <module>web</module>
-        <module>add-user-script</module>
+        <module>add-post-script</module>
         <module>shell</module>
     </modules>
 

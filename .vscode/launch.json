@@ -12,11 +12,11 @@
         },
         {
             "type": "java",
-            "name": "Spring Boot-AddUserScriptApplication<add-user-script>",
+            "name": "Spring Boot-AddPostScriptApplication<add-post-script>",
             "request": "launch",
             "cwd": "${workspaceFolder}",
-            "mainClass": "com.example.adduserscript.AddUserScriptApplication",
-            "projectName": "add-user-script",
+            "mainClass": "com.example.addpostscript.AddPostScriptApplication",
+            "projectName": "add-post-script",
             "args": "",
             "envFile": "${workspaceFolder}/.env"
         },
